@@ -11,7 +11,7 @@ int main() {
             scanf("%d", &mat[i][j]);
         }
     }
-    
+   
     int top = 0, bottom = r - 1, left = 0, right = c - 1;
     
     while (top <= bottom && left <= right) {
